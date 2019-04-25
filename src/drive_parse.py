@@ -42,6 +42,9 @@ while not re.findall(end_regex, line):
 
         # Insert to dataframe
         pst_df.loc[len(pst_df)] = [name, user, size, date, directory]
+    else:
+        if line != '\n':
+            print(line)
 
     # Go to next line
     line = pst_info.readline()
