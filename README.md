@@ -1,3 +1,3 @@
-# PST-Project
+# PST Finder
 
-A simple parser that converts dir outputs to csv files to catalog PST files on a mapped DFS server.
+Loctes PST files and outputs to a csv file.

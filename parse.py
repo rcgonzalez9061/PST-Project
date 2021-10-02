@@ -52,4 +52,3 @@ while not re.findall(end_regex, line):
 print(pst_df)
 pst_df.to_csv('Y:\PST Project\psts.csv')
 pst_info.close()
-
